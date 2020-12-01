@@ -2,8 +2,8 @@ package com.student.model;
 
 public class SM {
 	private int id;
-	private string username;
-	private string password;
+	private string name;
+	private string word;
 	private int sex;
 	private string love;
 	public int getId() {
@@ -12,17 +12,17 @@ public class SM {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public string getUsername() {
-		return username;
+	public string getname() {
+		return name;
 	}
-	public void setUsername(string username) {
-		this.username = username;
+	public void setname(string name) {
+		this.name = name;
 	}
-	public string getPassword() {
-		return password;
+	public string getword() {
+		return word;
 	}
-	public void setPassword(string password) {
-		this.password = password;
+	public void setword(string word) {
+		this.word = word;
 	}
 	public int getSex() {
 		return sex;
